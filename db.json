@@ -1,97 +1,105 @@
 {
-    "categories":[
+    "categories": [
         {
             "id": 1,
             "name": "Frontend",
-            "color": "#6BD1FF",
-            "videos":[
-                {
-                    "id":0,
-                    "title":"¿Cómo un desarrollador Front End utiliza el Figma?",
-                    "url":"https://youtu.be/UuAX5azcvDQ?si=Vxo0r0xfl2W_j2YN",
-                    "thumbnail":"https://img.youtube.com/vi/UuAX5azcvDQ/sddefault.jpg"
-                },
-                {
-                    "id":1,
-                    "title":"De JavaScript a TypeScript: La Evolución que Todo Front-End",
-                    "url":"https://youtu.be/BaRZEFHI-oY?si=4yFT_O4Ak9jTjUMt",
-                    "thumbnail":"https://img.youtube.com/vi/BaRZEFHI-oY/sddefault.jpg"
-                },
-                {
-                    "id":2,
-                    "title":"La importancia de UX para Front End",
-                    "url":"https://youtu.be/xxYOWp0UVCY?si=RivzSJQNDmDk0ITY",
-                    "thumbnail":"https://img.youtube.com/vi/xxYOWp0UVCY/sddefault.jpg"
-                },
-                {
-                    "id":3,
-                    "title":"¿Por qué utilizar React con Typescript?",
-                    "url":"https://youtu.be/RLZ7-ZfkwOE?si=4w25ppSHU3BOxGIv",
-                    "thumbnail":"https://img.youtube.com/vi/RLZ7-ZfkwOE/sddefault.jpg"
-                }
-            ]
+            "color": "#6BD1FF"
         },
-        { 
+        {
             "id": 2,
             "name": "Backend",
-            "color": "#00C86F" ,
-            "videos":[
-                {
-                    "id":0,
-                    "title":"Desmistificando el Back-End",
-                    "url":"https://www.youtube.com/live/LLt7FreeHfQ?si=AfJfF5xrJ4tH1xoU",
-                    "thumbnail":"https://img.youtube.com/vi/LLt7FreeHfQ/sddefault.jpg"
-                },
-                {
-                    "id":1,
-                    "title":"Simplificando el Back End #AluraTips",
-                    "url":"https://youtu.be/XuSXJ9DUcvY?si=WPDmeutKcMm1blKL",
-                    "thumbnail":"https://img.youtube.com/vi/XuSXJ9DUcvY/sddefault.jpg"
-                },
-                {
-                    "id":2,
-                    "title":"Explorando el poder del Back-End en el Desarrollo Web",
-                    "url":"https://youtu.be/Z024LSCMqFk?si=8zG1AkfijiM8EKrT",
-                    "thumbnail":"https://img.youtube.com/vi/Z024LSCMqFk/sddefault.jpg"
-                },
-                {
-                    "id":3,
-                    "title":"¿Sabes qué es NodeJS?",
-                    "url":"https://youtu.be/o8x_n4Px1N0?si=ep06HraXIn7YFoKx",
-                    "thumbnail":"https://img.youtube.com/vi/o8x_n4Px1N0/sddefault.jpg"
-                }
-            ]
+            "color": "#00C86F"
         },
-        {   "id": 3,
+        {
+            "id": 3,
             "name": "Innovación y gestión",
-            "color": "#FFBA05",
-            "videos":[
-                {
-                    "id":0,
-                    "title":"¿Qué es SCRUM? ",
-                    "url":"https://youtu.be/TttMvhj4uu4?si=KLCd3sb728ocER5e",
-                    "thumbnail":"https://img.youtube.com/vi/TttMvhj4uu4/sddefault.jpg"
-                },
-                {
-                    "id":1,
-                    "title":"Desafíos y soluciones del trabajo remoto ",
-                    "url":"https://youtu.be/kIvnVfnmDyE?si=Q7J6lPNpdTLkbIsD",
-                    "thumbnail":"https://img.youtube.com/vi/kIvnVfnmDyE/sddefault.jpg"
-                },
-                {
-                    "id":2,
-                    "title":"¿Cómo es trabajar en una startup de tecnología?",
-                    "url":"https://youtu.be/zEAD3Uq-C0g?si=agARnBGXOKOiqmYK",
-                    "thumbnail":"https://img.youtube.com/vi/zEAD3Uq-C0g/sddefault.jpg"
-                },
-                {
-                    "id":3,
-                    "title":"Conociendo el mercado de tecnología en Brasil",
-                    "url":"https://youtu.be/kqfaRah9eYY?si=7oohjRlUKE8d6loH",
-                    "thumbnail":"https://img.youtube.com/vi/kqfaRah9eYY/sddefault.jpg"
-                }
-            ] 
+            "color": "#FFBA05"
         }
-
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "categoryId": 1,
+            "title": "¿Cómo un desarrollador Front End utiliza el Figma?",
+            "url": "https://youtu.be/UuAX5azcvDQ?si=Vxo0r0xfl2W_j2YN",
+            "thumbnail": "https://img.youtube.com/vi/UuAX5azcvDQ/sddefault.jpg"
+        },
+        {
+            "id": 2,
+            "categoryId": 1,
+            "title": "De JavaScript a TypeScript: La Evolución que Todo Front-End",
+            "url": "https://youtu.be/BaRZEFHI-oY?si=4yFT_O4Ak9jTjUMt",
+            "thumbnail": "https://img.youtube.com/vi/BaRZEFHI-oY/sddefault.jpg"
+        },
+        {
+            "id": 3,
+            "categoryId": 1,
+            "title": "La importancia de UX para Front End",
+            "url": "https://youtu.be/xxYOWp0UVCY?si=RivzSJQNDmDk0ITY",
+            "thumbnail": "https://img.youtube.com/vi/xxYOWp0UVCY/sddefault.jpg"
+        },
+        {
+            "id": 4,
+            "categoryId": 1,
+            "title": "¿Por qué utilizar React con Typescript?",
+            "url": "https://youtu.be/RLZ7-ZfkwOE?si=4w25ppSHU3BOxGIv",
+            "thumbnail": "https://img.youtube.com/vi/RLZ7-ZfkwOE/sddefault.jpg"
+        },
+        {
+            "id": 5,
+            "categoryId": 2,
+            "title": "Desmistificando el Back-End",
+            "url": "https://www.youtube.com/live/LLt7FreeHfQ?si=AfJfF5xrJ4tH1xoU",
+            "thumbnail": "https://img.youtube.com/vi/LLt7FreeHfQ/sddefault.jpg"
+        },
+        {
+            "id": 6,
+            "categoryId": 2,
+            "title": "Simplificando el Back End #AluraTips",
+            "url": "https://youtu.be/XuSXJ9DUcvY?si=WPDmeutKcMm1blKL",
+            "thumbnail": "https://img.youtube.com/vi/XuSXJ9DUcvY/sddefault.jpg"
+        },
+        {
+            "id": 7,
+            "categoryId": 2,
+            "title": "Explorando el poder del Back-End en el Desarrollo Web",
+            "url": "https://youtu.be/Z024LSCMqFk?si=8zG1AkfijiM8EKrT",
+            "thumbnail": "https://img.youtube.com/vi/Z024LSCMqFk/sddefault.jpg"
+        },
+        {
+            "id": 8,
+            "categoryId": 2,
+            "title": "¿Sabes qué es NodeJS?",
+            "url": "https://youtu.be/o8x_n4Px1N0?si=ep06HraXIn7YFoKx",
+            "thumbnail": "https://img.youtube.com/vi/o8x_n4Px1N0/sddefault.jpg"
+        },
+        {
+            "id": 9,
+            "categoryId": 3,
+            "title": "¿Qué es SCRUM?",
+            "url": "https://youtu.be/TttMvhj4uu4?si=KLCd3sb728ocER5e",
+            "thumbnail": "https://img.youtube.com/vi/TttMvhj4uu4/sddefault.jpg"
+        },
+        {
+            "id": 10,
+            "categoryId": 3,
+            "title": "Desafíos y soluciones del trabajo remoto",
+            "url": "https://youtu.be/kIvnVfnmDyE?si=Q7J6lPNpdTLkbIsD",
+            "thumbnail": "https://img.youtube.com/vi/kIvnVfnmDyE/sddefault.jpg"
+        },
+        {
+            "id": 11,
+            "categoryId": 3,
+            "title": "¿Cómo es trabajar en una startup de tecnología?",
+            "url": "https://youtu.be/zEAD3Uq-C0g?si=agARnBGXOKOiqmYK",
+            "thumbnail": "https://img.youtube.com/vi/zEAD3Uq-C0g/sddefault.jpg"
+        },
+        {
+            "id": 12,
+            "categoryId": 3,
+            "title": "Conociendo el mercado de tecnología en Brasil",
+            "url": "https://youtu.be/kqfaRah9eYY?si=7oohjRlUKE8d6loH",
+            "thumbnail": "https://img.youtube.com/vi/kqfaRah9eYY/sddefault.jpg"
+        }
     ]
 }
